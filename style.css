@@ -1,0 +1,1006 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+.section1 {
+    top: 91px;
+    position: relative;;
+    height: 71px;
+    background-color: #f0f0ffbe;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.half1 {
+    font-size: 20px;
+    top: 19px;
+    position: relative;
+    left: 64px;
+    padding: -2px;
+    color: #C7C7C7;
+}
+.half1 i{
+    padding-left: 16px;
+}
+.half1 i:hover{
+    color: #5DB2FF;
+}
+.half2 i{
+    font-size: 20px;
+    color: #5DB2FF;
+}
+.section1 .half2 {
+    display: flex;
+    width: 22%;
+    right: 88px;
+    top: 24px;
+    position: relative;
+}
+.half2 .email p {
+    position: relative;
+    left: 9px;
+    top: -20px;
+}
+.section1 .half2 .email{
+    display: flex;
+    
+}
+.num{
+    position: relative;
+    left: 29px;
+}
+.num p {
+    top: -45px;
+    position: relative;
+    left: 23px;
+}
+
+.section2 {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    opaciy: .9;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.05), 0px -5px 15px rgba(0, 0, 0, 0.05);
+    z-index: 1;
+}
+.checkbtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.logo {
+    display: flex;
+    position: relative;
+    left: 70px;
+    top: 7px;
+}
+
+.logo img{
+    height: 59px;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+}
+.list ul li {
+    font-size: 1.3rem;
+    position: relative;
+    padding-right: 40px;
+    right: 94px;
+    top: 11px;
+}
+.section2 .list ul a{
+    text-decoration: none;
+    color: black;
+}
+.list ul li:hover{
+    color: #5DB2FF;
+    transition: .2s ease-in;
+}
+.list ul input {
+    top: -3px;
+    position: relative;
+    right: 52px;
+    padding: 17px 38px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #5DB2FF;
+    cursor: pointer;
+    font-family: "Poppins", "sans-serif";
+    font-size: 1rem;
+}
+.list ul input:hover{
+    border: 1px solid #5DB2FF;
+    background-color: white;
+    color: #5DB2FF;
+    transition: .2s ease-in;
+}
+.section2 .logo a{
+text-decoration: none;
+color: black;
+}
+/*SecTiOn3 Start*/
+.section3 {
+    position: relative;
+    top: 129px;
+    background-image: url(pexels-mix-and-match-studio-4227059.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 606px;
+    width: 100%;
+    background-position: center center;
+    z-index: 0;
+   
+}
+.section3 .text {
+    top: 169px;
+    left: 5%;
+    width: 94%;
+    position: relative;
+}
+.section3 .text p {
+    width: 50%;
+}
+.section3 .text h2{
+    font-weight: 500;
+}
+.section3 .text button {
+    padding: 19px 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: -webkit-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+    font-family: "Poppins", "sans-serif";
+    font-size: 1.1rem;
+    border-radius: 8px;
+    font-weight: 410;
+}
+.section3 .text button:hover{
+    background: white;
+    border: 1px solid #0181f5;
+    color: #0181f5;
+    transition: .1s ease-in;
+}
+
+.section4 {
+    padding-top: 19px;
+    background-color: brown;
+    position: relative;
+    top: 129px;
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+.section4 .parent{
+    display: flex;
+    background-color: brown;
+}
+.section4 .parent div {
+    /* padding-top: 0px; */
+    width: 34%;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -15px;
+}
+
+.section4 .parent div p {
+    width: 48%;
+    position: relative;
+    left: 20px;
+}
+.section4 .parent div i{
+    font-size: 180%;
+}
+.section4 .parent div button {
+    position: relative;
+    right:-12px;
+    padding: 15px 38px;
+    outline: none;
+    border: 1px solid white;
+    font-family: "Poppins", "sans-serif";
+    font-size: 20px;
+    font-weight: 450;
+    border-radius: 9px;
+    color: white;
+    background-color: brown;
+}
+.section4 .parent .sec2{
+    background-color: rgb(151, 38, 38);
+}
+
+.section4 .parent button:hover{
+    background-color: white;
+    color: brown;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+.section5{
+    display: flex;
+    width: 100%;
+    top: 204px;
+    position: relative;
+}
+
+.img{
+    width: 60%;
+}
+.img .img1 {
+    position: relative;
+    left: 123px;
+    top: 73px;
+    width: 293px;
+    height: 433px;
+}
+.img .img2 {
+    position: relative;
+    width: 298px;
+    height: 441px;
+    top: 173px;
+    left: 56px;
+}
+.firsttext{
+    position: relative;
+    width: 40%;
+    top: 101px;
+    left: -54px;
+}
+
+.firsttext .h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.firsttext .h1 {
+    width: 55%;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.firsttext .p{
+    color: #727272;
+    width: 93%;
+    font-size: 1.2rem;
+}
+.firsttext ul li{
+    font-size: 1.2rem;
+    color: #727272;
+    left: -19px;
+    position: relative;
+}
+
+.firsttext button{
+    padding: 17px 39px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: -webkit-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+    font-family: "Poppins", "sans-serif";
+    font-size: 1.1rem;
+    border-radius: 8px;
+    font-weight: 400; 
+}
+.firsttext button:hover{
+    background: white;
+    border: 1px solid #0181f5;
+    color: #0181f5;
+    transition: .1s ease-in;
+}
+/*SeCtIoN6 sT*/
+
+/*SeCtIOn6 ENd*/
+
+.section6 {
+    top: 381px;
+    position: relative;
+    width: 100%;
+    height: 1397px;
+    background-color: #F9F9FF;
+}
+.haalf1 {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 26px;
+    margin: auto;
+}
+.haalf1 p {
+    width: 49%;
+    position: relative;
+    left: 357px;
+    font-size: 1.5rem;
+    color: #727272;
+}
+.section6 .haalf2 .part1{
+    width: 100%;
+    display: flex;
+}
+
+.section6 .haalf2 .part2{
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 48px;
+}
+
+.section6 .haalf2 .part1 div {
+    width: 27%;
+    /* height: 66%; */
+    /* height: 467px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    justify-content: space-between;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.219), 0px -5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: -20px;
+     border-radius: 5px;
+}
+
+.section6 .haalf2 .part1 div img {
+    width: 369px;
+    height: 240px;
+}
+
+.section6 .haalf2 .part2 div {
+    width: 27%;
+    /* height: 66%; */
+    /* height: 467px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    justify-content: space-between;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.219), 0px -5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.section6 .haalf2 .part2 div img {
+    width: 368px;
+    height: 240px;
+}
+.haalf2{
+    position: relative;
+    top: 77px;
+}
+.p1{
+    left: 39px;
+}
+.p3{
+    right: 39px;
+}
+.p4{
+    left: 39px;
+}
+.p6{
+    right: 39px;
+}
+
+.section6 .haalf2 .part1 div:hover{
+    transform: scale(1.1);
+    transition: .2s ease-out;
+    
+}
+
+.section6 .haalf2 .part2 div:hover{
+    transform: scale(1.1);
+    transition: .2s ease-out;
+}
+.haalf2 a{
+    text-decoration: none;
+    color: #5DB2FF;
+    font-size: 1.2rem;
+    font-weight: 420;
+    position: relative;
+    bottom: 8px;
+}
+
+.haalf2 a:hover{
+    text-decoration: underline;
+    transition: .5s ease-in;
+}
+.haalf2 h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.795);
+}
+
+.haalf2 p {
+    position: relative;
+    left: 20px;
+    font-size: 1.4rem;
+    color: #727272;
+}
+
+.section7{
+    height: 760px;
+    width: 100%;
+    top: 495px;
+    position: relative;
+}
+.section7 .doctors{
+    position: relative;
+    top: 167px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.section7 .doctors .doc2 img{
+    height: 420px;
+}
+.section7 .doctors div{
+    background-color: #dde9f5cc;
+    
+}
+
+.section7 .doctors div p{
+    color: black;
+   
+}
+
+.section7 .doctors div h2{
+    color: rgba(0, 0, 0, 0.897);
+}
+.section7 .doctors .doc1 {
+    position: relative;
+    left: 152px;
+}
+.section7 .doctors .doc3 {
+    position: relative;
+    right: 152px;
+}
+
+.section7 .doctors div:hover{
+    background-color: #007bffb2;
+    transform: scale(1.1);
+    transition: .2s ease-out;
+}
+
+
+.section7 .doctors div:hover h2,
+.section7 .doctors div:hover p {
+    color: white;
+}
+.section7 .texty h1 {
+    position: absolute;
+    left: 151px;
+    top: 31px;
+}
+
+.section8{
+    width: 100%;
+    position: relative;
+    top: 545px;
+    background-color: #1F1F1F;
+    height: 450px;
+}
+.section8 .paart1 img{
+    height: 59px;
+   
+}
+
+.section8  .paart1 .loogo{
+    display: flex;
+    position: relative;
+    right: 8px;
+}
+.section8 .paart1 .loogo h3{
+    position: relative;
+    top: -1px;
+    right: 5px;
+    color: white;
+}
+.section8 .paart1 i{
+    font-size: 27px;
+    text-align: center;
+    left: -14px;
+    position: relative;
+    color: #BABABA;
+    padding-left: 12px;
+}
+
+
+
+.section8 .paart1 i:hover{
+    color: #FFFFFF;
+    transition: .2s ease-in;
+}
+
+
+
+
+.paart1,
+.paart2,
+.paart3 {
+    float: left;
+    width: 33.33%; /* Adjust the width as needed */
+    box-sizing: border-box;
+    padding: 20px; /* Add padding for spacing */
+}
+
+.paart1 {
+    top: 62px;
+    position: relative;
+    left: 120px;
+}
+.paart1 p{
+    color: #C7C7C7;
+    font-size: 16px;
+    font-weight: 300;
+    width: 87%;
+}
+.paart2{
+    color: white;
+    position: relative;
+    left: 95px;
+    top: 64px;
+}
+.paart2 h1{
+    font-weight: 400;
+    font-size: 22px;
+}
+.paart2 p{
+    font-size: 16px;
+    color: #BABABA;
+    line-height: 42px;
+}
+
+.paart2 p:hover{
+    color: #5DB2FF;
+    cursor: pointer;
+}
+
+.paart3{
+    position: relative;
+    top: 66px;
+    right: 101px;
+    color: white;
+}
+
+.paart3 h1{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.paart3 p{
+    color: #C7C7C7;
+    font-size: 16px;
+    font-weight: 300;
+    width: 68%;
+}
+.flfooter {
+    height: 77px;
+    position: relative;
+    top: 525px;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+
+.flfooter h3{
+    position: relative;
+    top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.flfooter p{
+    position:relative;
+    top: -10px;
+    color: #0181f5;
+}
+
+@media screen and (max-width: 768px) {
+   html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden ;
+   }
+   .logo {
+    width: 43%;
+    display: flex;
+    position: relative;
+    left: 11px;
+    top: 7px;
+}
+    .section2{
+        width: 100%;
+        height: auto;
+        min-height: 87px;
+
+       
+    }/*
+    .section2 .list ul {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 455px;
+        top: 0px;
+        padding-top: 140px;
+        display: none;
+      
+       
+    }*/
+    .section2 .list ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 71px; /* Adjust based on your design */
+        left: -200%;
+        width: 100%;
+        background: #eaeff3;
+       
+        transition: .1s ease-out;
+        z-index: 1;
+        height: 308px;
+       
+    }
+    /*
+    .section2 .list ul li{
+        top: -59px;
+        padding-top: 34px;
+      
+    }*/
+    .section2 .list ul li{
+        padding: 10px;
+        text-align: center;
+    }
+    .section2 .list ul input{
+        display: none;
+    }
+
+    .checkbtn {
+        position: fixed;
+        right: 28px;
+        width: 4%;
+        top: 7px;
+        display: block;
+    }
+    /*
+    #check:checked ~ ul{
+        display: flex;
+    }
+    #check:checked ~ ul{
+        right: 1px;
+    }
+*/
+
+#check:checked ~  ul {
+    display: flex;
+}
+
+#check:checked ~  ul {
+    riht: 0;
+    left: 0;
+   
+}
+
+.half1 {
+    top: 0px;  
+    left: 1px;  
+    width: 40%;
+}
+.section1 {
+    height: 102px;
+}
+    .section1 .half2 {
+       display: flex;
+       flex-direction: column;
+        width: 60%;
+        right: 0;
+        font-size: .9em;
+        top: 1px;
+        position: relative;
+    }
+
+    .section1 .half2 .email {
+        display: flex;
+        left: 9px;
+        position: relative;
+        top: 16px;
+        
+    }
+
+    .half2 .email p {
+       
+        top: -16px;
+    }
+    .num {
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+    .num p {
+        top: -36px;
+        position: relative;
+        left: 25px;
+    }
+    .half1 i {
+       position: relative;
+        top: 13px;
+    }
+    .section3 {
+        background-position: right;
+    }
+    .section3 .text button {
+    padding: 16px 17px;
+    font-size: .9rem;
+    border-radius: 10px;
+  
+}
+.section4{
+    height: 168%;
+}
+.section4 .parent {
+    display: grid;
+    background-color: brown;
+    
+}
+.section4 .parent div {
+    width: 90%;
+    left: 5%;
+    top: 10%;
+    height: 97%;
+    background-color: rgb(151, 38, 38);
+    border-radius: 16px;
+}
+.section4 .parent div p {
+    width: 79%;
+    bottom: 26px;
+}
+
+.section4 .parent div button {
+    position: relative;
+    top: -31px;
+    width: 73%;
+    padding: 17px 22px;
+    font-size: 17px;
+}
+.section4 .parent div i {
+    font-size: 180%;
+    position: relative;
+    top: 8px;
+}
+.section4 .parent div h1{
+    font-size: 1.4rem;
+}
+
+.section5 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.img .img2 {
+    display: none;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.img .img1 {
+    position: relative;
+     left: 0;
+     width: 62%;
+    height: 100%;
+}
+.firsttext {
+    
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.firsttext .h4 {
+    font-size: 1.3rem;
+   
+}
+
+.firsttext .h1 {
+    width: 100%;
+    font-size: 1.7rem;
+}
+.firsttext .p {
+    width: 75%;
+    font-size: 1rem;
+    position: relative;
+    left: 11%;
+}
+.firsttext ul li {
+    font-size: .9rem;
+    left: 0;
+    position: relative;
+}
+
+.firsttext button {
+    width: 46%;   
+    padding: 11px 29px;
+    font-size: 1rem;
+}
+.section6 {
+    width: 100%;
+    height: 1278px;
+}
+.section6 .haalf1 h1 {
+    font-size: 1.6rem;
+    top: 17px;
+    font-weight: 550;
+    position: relative;
+}
+.section6 .haalf2 .part1 {
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+}
+.section6 .haalf2 .part2{
+    display: none;
+}
+.haalf2 {
+    width: 100%;
+    position: relative;
+    top: -332px;
+}
+.section6 .haalf2 .part1 div {
+    width: 77%;
+    left: 0;
+    height: 329px;
+    top: 10px;
+}
+.section6 .haalf2 .part1 div img {
+    width: 100%;
+    /* height: 77%; */
+    box-sizing: border-box;
+}
+
+.section6 .haalf2 .part1 .p3{
+    position: relative;
+    top: 138px;
+}
+.section6 .haalf2 .part1 .p2{
+    position: relative;
+    top: 67px;
+}
+
+.haalf2 p {
+    left: 25px;
+    font-size: 1rem;
+    bottom: 33px;
+    width: 92%;
+}
+
+.haalf2 h2 {
+    font-size: 1.4rem;
+    position: relative;
+    bottom: 6px;
+    font-weight: 485;
+}
+
+.haalf2 a {
+    font-size: 1.1rem;
+  
+    position: relative;
+    bottom: 40px;
+}
+
+.section7 {
+    height: 1722px;
+    width: 100%;
+    top: 404px;
+    position: relative;
+}
+.section7 .doctors {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.section7 .doctors div{
+    position: relative;
+    left: 0;
+    width: 70%;
+    left: 15%;
+}
+.section7 .doctors .doc1 {
+    position: relative;
+    left: 15%;
+}
+.section7 .doctors div img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.section7 .doctors .doc3 {
+    top: 60px;
+}
+
+.section7 .doctors .doc2 {
+    top: 30px;
+}
+.texty {
+    width: 100%;
+    position: relative;
+}
+.section7 .texty h1 {
+    left: 47px;
+    width: 61%;
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+.section8{
+    top: 25rem;
+    display: flex;
+    flex-direction: column;
+    height: 536px;
+}
+.paart1 {
+    width: 50%;
+    top: 22px;
+    left: 0;
+}
+.paart1 p {
+    width: 100%;
+}
+.paart2 {
+    left: 176px;
+    top: -271px;
+    width: 50%;
+}
+.paart2 p {
+    font-size: 16px;
+    color: #BABABA;
+    line-height: 28px;
+}
+.paart3 {
+    top: -296px;
+    right: 0;
+    width: 50%;
+}
+.paart3 p {
+    width: 100%;
+}
+.flfooter {
+    height: 97px;
+    top: 386px;
+}
+.flfooter h3 {
+    position: relative;
+    top: 24px;
+    font-size: 13px;
+    font-weight: 400;
+}
+}
+    
+@media screen and (max-width: 361px){
+    .section4{
+        height: 177%;
+    }
+}
+
+@media screen and (max-width: 306px){
+    .section4{
+        height: 196%;
+    }
+}
+
